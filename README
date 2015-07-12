@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5221
+
+execute 'locate' command and open files via ctrlp.vim (https://github.com/ctrlpvim/ctrlp.vim).
+inspired by unite-locate (https://github.com/ujihisa/unite-locate)
+
+
+https://github.com/ompugao/ctrlp-locate
