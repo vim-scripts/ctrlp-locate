@@ -110,7 +110,7 @@ function! ctrlp#locate#accept(mode, str)
 endfunction
 
 function! ctrlp#locate#exit()
-  "unlet! s:ctrlp_locate_input_query
+  unlet! s:ctrlp_locate_input_query
 endfunction
 
 let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)
