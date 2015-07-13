@@ -69,7 +69,7 @@ endfunction
 
 function! s:locate_command(input_query)
   let locate_command = ''
-  if has('mac')
+  if system('uname') =~ 'Darwin'
     let locate_command = 'mdfind -name "' . a:input_query . '"'
           \ . (g:ctrlp_locate_max_candidates!=0 ? ' | head -n ' . g:ctrlp_locate_max_candidates : '')
   elseif executable('locate')
